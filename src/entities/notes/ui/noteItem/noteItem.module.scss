@@ -1,0 +1,17 @@
+.note {
+  box-sizing: border-box;
+  background-color: #f5ec4f;
+  padding: 15px;
+  height: 180px;
+  width: 250px;
+  overflow-y: auto;
+  .title {
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4b4b45;
+  }
+  .subtitle {
+    font-size: 15px;
+  }
+}
