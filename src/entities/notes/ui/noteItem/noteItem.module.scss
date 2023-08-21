@@ -1,10 +1,40 @@
+@keyframes tilt-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0deg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
 .note {
   box-sizing: border-box;
   background-color: #f5ec4f;
   padding: 15px;
   height: 180px;
   width: 250px;
-  overflow-y: auto;
+  //overflow-y: auto;
+  position: relative;
+  &.deleteAnimation {
+    animation: tilt-shaking .3s infinite;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 35px;
+    height: 35px;
+    background-image: url("https://img.icons8.com/stickers/35/falling-star.png");
+    transform: rotate(-43deg);
+    //background-color: blue;
+
+  }
+  .close {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    cursor: pointer;
+  }
   .title {
     font-size: 20px;
     margin-bottom: 8px;
@@ -13,5 +43,7 @@
   }
   .subtitle {
     font-size: 15px;
+    height: 115px;
+    overflow-y: auto;
   }
 }
