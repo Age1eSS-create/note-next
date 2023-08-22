@@ -29,7 +29,7 @@ export function NoteList({notes} : propsType) {
 
     return (
         <div className={s.NoteList}>
-            {notes.map((note) => (
+            {Array.isArray(notes) && notes?.map((note) => (
                 <div key={note.id} draggable={true}
                      onDragStart={e => handlerDragStart(e, note)}
                      onDragLeave={handlerDragLeave}
