@@ -15,7 +15,7 @@
   //overflow-y: auto;
   position: relative;
   &.deleteAnimation {
-    animation: tilt-shaking .3s infinite;
+    animation: tilt-shaking .8s infinite;
   }
   &::before {
     content: '';

@@ -5,8 +5,10 @@ export async function GET() {
     try {
         const res = await fetch('http://127.0.0.1:8090/api/collections/Note/records?page=1&perPage=50',
             {
-                method: 'GET'
-                }
+
+                    method: 'GET',
+                    cache: 'no-store',
+                },
             )
         if (res.ok) {
             const data = await res.json()
@@ -31,9 +33,7 @@ export async function GET() {
 
 export async function POST(request: NextRequest) {
     try {
-        const title = request.nextUrl.searchParams.get('title')
-        const subtitle = request.nextUrl.searchParams.get('subtitle')
-        console.log(subtitle, title)
+        const {title, subtitle} = await request.json();
         const response = await fetch('http://127.0.0.1:8090/api/collections/Note/records', {
             method: "POST",
             headers: {

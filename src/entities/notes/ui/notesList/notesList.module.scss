@@ -3,4 +3,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 25px;
+  overflow: auto;
+  padding: 15px 10px;
+  max-height: 60vh;
 }
