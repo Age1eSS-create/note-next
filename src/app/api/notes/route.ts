@@ -36,6 +36,7 @@ export async function POST(request: NextRequest) {
         const {title, subtitle} = await request.json();
         const response = await fetch('http://127.0.0.1:8090/api/collections/Note/records', {
             method: "POST",
+            cache: 'no-cache',
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -54,5 +55,22 @@ export async function POST(request: NextRequest) {
 
     } catch (e) {
         return NextResponse.json({flag:false})
+    }
+}
+
+
+export async function DELETE(request:NextRequest) {
+    try {
+        console.log('delete guest cart offer');
+        const id = request.nextUrl.searchParams.get('id')
+        console.log(request.url)
+        const response = await fetch(`http://127.0.0.1:8090/api/collections/Note/records/${id}`, {
+            method: 'DELETE'
+        })
+        if (response.ok) return NextResponse.json({flag: true})
+        return NextResponse.json({flag: false})
+
+    } catch (e) {
+        return NextResponse.json({flag: false})
     }
 }

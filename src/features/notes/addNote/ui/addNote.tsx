@@ -11,9 +11,9 @@ export const AddNote = () => {
     const handlerClick = async (e) => {
         e.preventDefault()
         await addNote(title,subtitle)
-        router.refresh()
         setTitle('')
         setSubtitle('')
+        location.reload()
     }
 
     return (

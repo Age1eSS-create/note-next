@@ -2,12 +2,14 @@
 import s from './notesList.module.scss'
 import {NoteListType} from "@/entities/notes/types/note";
 import NoteItem from "@/entities/notes/ui/noteItem/noteItem";
+import {ReactNode} from "react";
 
 interface propsType {
-    notes: NoteListType
+    notes: NoteListType,
+    DeleteNote: ReactNode
 }
 
-export function NoteList({notes} : propsType) {
+export function NoteList({notes, DeleteNote } : propsType) {
 
     const handlerDragStart = (e, note) => {
         console.log("Drag", note)
@@ -37,7 +39,7 @@ export function NoteList({notes} : propsType) {
                      onDragOver={handlerDragOver}
                      onDrop={e => handlerDrop(e, note)}
                 >
-                    <NoteItem note={note} /></div>
+                    <NoteItem note={note} DeleteNote={DeleteNote} /></div>
             ))}
         </div>
     )
