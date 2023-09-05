@@ -11,14 +11,14 @@ async function getNotes() {
     // return data?.items as any[]
 }
 export default async function Notes() {
-    const notes = await getNotes();
+    // const notes = await getNotes();
     return (
         <div className={s.notesList}>
             <div className={s.addNoteContainer}>
                 <AddNote />
             </div>
             <h1>Заметки</h1>
-           <NoteList notes={notes} DeleteNote={DeleteNote} />
+           <NoteList DeleteNote={DeleteNote} />
         </div>
     )
 }
