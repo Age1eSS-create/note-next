@@ -17,7 +17,6 @@ export default async function Notes() {
             <div className={s.addNoteContainer}>
                 <AddNote />
             </div>
-            <h1>Заметки</h1>
            <NoteList DeleteNote={DeleteNote} />
         </div>
     )

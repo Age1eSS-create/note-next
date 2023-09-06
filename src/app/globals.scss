@@ -1,0 +1,23 @@
+@import 'src/shared/styles/RetroTheme';
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Consolas;
+    padding: 0 2rem;
+    background-color: var(--primary);
+    padding: 20px 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+

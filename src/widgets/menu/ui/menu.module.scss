@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  align-items: flex-end;
+  max-width: 1200px;
+  margin: 0 auto;
+  .block {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: var(--primary-bgc);
+    box-shadow: 0px 1px 0px 0px #DFDFDF inset, 1px 0px 0px 0px #DFDFDF inset;
+    border-right: 2px solid var(--second-bgc);
+    &.active {
+      transform: scaleY(1.2);
+      border: none;
+    }
+  }
+
+}

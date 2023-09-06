@@ -1,10 +1,13 @@
-import './globals.css'
+import './globals.scss'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import localFont from "next/font/local";
 import Link from "next/link";
 import s from './layout.module.scss';
+import {Menu} from "@/widgets/menu";
 
 const inter = Inter({ subsets: ['latin'] })
+const myFont = localFont({src:'./consolas.ttf'})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -18,14 +21,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <nav className={s.nav}>
-          <Link href="/">Главная</Link>
-          <Link href="/notes">Заметки</Link>
-      </nav>
-      <div className={s.content}>
-          {children}
-      </div>
+      <body className={myFont.className}>
+        <Menu />
+          {/*<nav className={s.nav}>*/}
+          {/*    <Link href="/">Главная</Link>*/}
+          {/*    <Link href="/notes">Заметки</Link>*/}
+          {/*</nav>*/}
+          <div className={s.content}>
+              {children}
+          </div>
       </body>
     </html>
   )
