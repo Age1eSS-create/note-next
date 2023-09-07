@@ -23,54 +23,29 @@
   justify-content: center;
   .container {
     background-color: #dad248;
-    padding: 15px;
-    min-width: 320px;
+    padding: 25px 35px;
+    min-width: 450px;
     min-height: 200px;
     display: flex;
     //align-items: center;
     justify-content: center;
     flex-direction: column;
-    input,textarea {
-      height: 35px;
-      padding: 5px;
-      background: hsl(49.85deg 86.29% 77.02%);
-      font-size: 25px;
+    input, textarea {
+      margin-bottom: 15px;
     }
     textarea {
-      resize: none;
-      height: 150px;
-      margin-bottom: 25px;
+      height: 250px;
     }
     button {
-      height: 35px;
-      color: black;
-      border: none;
-      outline: 1px dotted rgb(37, 37, 37);
-      outline-offset: -4px;
-      background: hsl(49.85deg 39.09% 72.85%);
-      box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      padding: 5px 20px;
-      &:active {
-        box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
-      }
+      font-size: 20px;
     }
+
   }
 }
 
 .button {
   color: black;
-  border: none;
-  outline: 1px dotted rgb(37, 37, 37);
-  outline-offset: -4px;
-  background: hsl(49.85deg 39.09% 72.85%);
-  box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
-  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 5px 20px;
   &:active {
     box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
   }
