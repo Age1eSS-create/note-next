@@ -3,10 +3,8 @@ import s from './addNote.module.scss'
 import classNames from "classnames";
 import {useCallback, useState} from "react";
 import {addNote} from "@/features/notes/addNote/controller/addNote";
-import { useRouter } from 'next/navigation'
 import {notesStore} from "@/entities/notes";
-import {Button, Input} from "@/shared/ui-kit";
-import {Textarea} from "@/shared/ui-kit/textarea/textarea";
+import {Button, Input, Modal, Textarea} from "@/shared/ui-kit";
 export const AddNote = () => {
     const [flagShow, setFlagShow] = useState(false)
 
@@ -37,12 +35,10 @@ const AddNoteModal = ({setFlagShow}:{setFlagShow:Function}) => {
     }
 
     return (
-        <div className={s.modal}>
-            <div className={s.container}>
-                <Input modes={['default']} placeholder={'Заголовок'} type="text" name='title' value={newNote.title} onChange={handlerChange}/>
-                <Textarea modes={['default']} placeholder={'Текст'} type="text" name='subtitle' value={newNote.subtitle} onChange={handlerChange}/>
-                <Button modes={['blue']} onClick={handlerClick}>Добавить</Button>
-            </div>
-        </div>
+        <Modal className={s.modal} setFlagShow={setFlagShow} title={'Добавить заметку'} >
+            <Input modes={['default']} placeholder={'Заголовок'} type="text" name='title' value={newNote.title} onChange={handlerChange}/>
+            <Textarea modes={['default']} placeholder={'Текст'} type="text" name='subtitle' value={newNote.subtitle} onChange={handlerChange}/>
+            <Button modes={['blue']} onClick={handlerClick}>Добавить</Button>
+        </Modal>
     )
 }

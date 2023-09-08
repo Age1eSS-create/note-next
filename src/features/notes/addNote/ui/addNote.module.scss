@@ -11,36 +11,42 @@
 }
 
 .modal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(110, 110, 110, 0.66);
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .container {
-    background-color: #dad248;
-    padding: 25px 35px;
-    min-width: 450px;
-    min-height: 200px;
-    display: flex;
-    //align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    input, textarea {
-      margin-bottom: 15px;
-    }
-    textarea {
-      height: 250px;
-    }
-    button {
-      font-size: 20px;
-    }
-
+  input, textarea {
+    margin-bottom: 10px;
   }
+  textarea {
+    min-height: 170px;
+  }
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+  //height: 100%;
+  //width: 100%;
+  //background-color: rgba(110, 110, 110, 0.66);
+  //z-index: 10;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  //.container {
+  //  background-color: #dad248;
+  //  padding: 25px 35px;
+  //  min-width: 450px;
+  //  min-height: 200px;
+  //  display: flex;
+  //  //align-items: center;
+  //  justify-content: center;
+  //  flex-direction: column;
+  //  input, textarea {
+  //    margin-bottom: 15px;
+  //  }
+  //  textarea {
+  //    height: 250px;
+  //  }
+  //  button {
+  //    font-size: 20px;
+  //  }
+  //
+  //}
 }
 
 .button {

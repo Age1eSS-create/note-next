@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+    <rect x="0.800003" y="0.800003" width="14.4" height="14.4" fill="#BDBDBD"/>
+    <rect width="0.799999" height="0.8" transform="matrix(-1 0 0 1 12.8 4)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 12 4.8)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 11.2 5.60001)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 10.4 6.39999)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 9.6 7.2)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 6.4 10.4)" fill="black"/>
+    <rect width="0.8" height="0.799999" transform="matrix(-1 0 0 1 5.6 11.2)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 4.8 12)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 12 3.2)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 11.2 4)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 10.4 4.8)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 9.6 5.60001)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 8.8 6.39999)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 5.6 9.60001)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 4.8 10.4)" fill="black"/>
+    <rect width="0.8" height="0.799999" transform="matrix(-1 0 0 1 4 11.2)" fill="black"/>
+    <rect width="0.799999" height="0.8" transform="matrix(-1 0 0 1 12.8 3.2)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 12 4)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 11.2 4.8)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 10.4 5.60001)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 9.6 6.39999)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 5.6 10.4)" fill="black"/>
+    <rect width="0.8" height="0.799999" transform="matrix(-1 0 0 1 4.8 11.2)" fill="black"/>
+    <rect width="0.8" height="0.8" transform="matrix(-1 0 0 1 4 12)" fill="black"/>
+    <rect x="4" y="3.2" width="0.8" height="0.8" fill="black"/>
+    <rect x="4.8" y="4" width="0.8" height="0.8" fill="black"/>
+    <rect x="5.6" y="4.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="6.4" y="5.60001" width="0.8" height="0.8" fill="black"/>
+    <rect x="7.2" y="6.39999" width="0.8" height="0.8" fill="black"/>
+    <rect x="10.4" y="9.60001" width="0.8" height="0.8" fill="black"/>
+    <rect x="9.6" y="9.60001" width="0.8" height="0.8" fill="black"/>
+    <rect x="8.8" y="9.60001" width="0.8" height="0.8" fill="black"/>
+    <rect x="9.6" y="8.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="8.8" y="8.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="8" y="8.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="8.8" y="8" width="0.8" height="0.8" fill="black"/>
+    <rect x="11.2" y="10.4" width="0.799999" height="0.8" fill="black"/>
+    <rect x="12" y="11.2" width="0.8" height="0.799999" fill="black"/>
+    <rect x="3.2" y="4" width="0.8" height="0.8" fill="black"/>
+    <rect x="4" y="4.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="4.8" y="5.60001" width="0.8" height="0.8" fill="black"/>
+    <rect x="5.6" y="6.39999" width="0.8" height="0.8" fill="black"/>
+    <rect x="6.4" y="7.2" width="0.8" height="0.8" fill="black"/>
+    <rect x="9.6" y="10.4" width="0.8" height="0.8" fill="black"/>
+    <rect x="10.4" y="11.2" width="0.8" height="0.799999" fill="black"/>
+    <rect x="11.2" y="12" width="0.799999" height="0.8" fill="black"/>
+    <rect x="3.2" y="3.2" width="0.8" height="0.8" fill="black"/>
+    <rect x="4" y="4" width="0.8" height="0.8" fill="black"/>
+    <rect x="4.8" y="4.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="5.6" y="5.60001" width="0.8" height="0.8" fill="black"/>
+    <rect x="6.4" y="6.39999" width="0.8" height="0.8" fill="black"/>
+    <rect x="10.4" y="10.4" width="0.8" height="0.8" fill="black"/>
+    <rect x="11.2" y="11.2" width="0.799999" height="0.799999" fill="black"/>
+    <rect x="12" y="12" width="0.8" height="0.8" fill="black"/>
+    <mask id="path-56-inside-1_7025_1897" fill="white">
+        <path d="M0 0H16V16H0V0Z"/>
+    </mask>
+    <path d="M0 0V-1H-1V0H0ZM0 1H16V-1H0V1ZM1 16V0H-1V16H1Z" fill="#DFDFDF" mask="url(#path-56-inside-1_7025_1897)"/>
+    <rect x="5.6" y="9.60001" width="0.8" height="0.8" fill="black"/>
+    <rect x="6.4" y="8.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="7.2" y="8.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="6.4" y="8" width="0.8" height="0.8" fill="black"/>
+    <rect x="5.6" y="8.8" width="0.8" height="0.8" fill="black"/>
+    <rect x="6.4" y="9.60001" width="0.8" height="0.8" fill="black"/>
+    <rect x="7.2" y="7.2" width="1.6" height="1.6" fill="black"/>
+</svg>

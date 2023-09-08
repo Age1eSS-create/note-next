@@ -7,12 +7,13 @@
   background-color: transparent;
   outline: none;
   &.default {
-    background-color: var(--primary);
+    background-color: var(--primary-bgc);
     color: black;
     border: 2px solid black;
     &:focus {
       border: none;
       outline: 2px solid var(--second-bgc);
+      background-color: var(--primary);
     }
   }
 }
