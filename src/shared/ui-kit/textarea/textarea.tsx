@@ -2,7 +2,7 @@ import React, {ChangeEvent, InputHTMLAttributes, TextareaHTMLAttributes, useMemo
 import s from './textarea.module.scss'
 import classNames from "classnames";
 
-type ModeType = Array<'' | 'default'>
+type ModeType = Array<'' | 'default' | 'outline'>
 interface PropsType extends Omit<TextareaHTMLAttributes<HTMLTextAreaElement>, 'onChange' | 'value'> {
     value: string
     className?: string;

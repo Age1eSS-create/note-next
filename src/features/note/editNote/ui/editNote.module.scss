@@ -1,0 +1,31 @@
+.card {
+  p {
+    margin: 0;
+  }
+  .title {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .subtitle {
+    margin-bottom: 15px;
+    width: 100%;
+    textarea {
+      word-wrap: break-word;
+      height: 300px;
+      overflow-y: auto;
+    }
+  }
+  .date {
+    margin-bottom: 15px;
+  }
+  .label {
+    color: var(--second-bgc);
+    margin-bottom: 5px;
+  }
+  .text {
+    padding: 5px;
+  }
+  .buttonContainer {
+
+  }
+}

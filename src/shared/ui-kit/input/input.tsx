@@ -2,7 +2,7 @@ import React, {ChangeEvent, InputHTMLAttributes, useMemo} from 'react';
 import s from './input.module.scss'
 import classNames from "classnames";
 
-type ModeType = Array<'' | 'default'>
+type ModeType = Array<'' | 'default' | 'outline'>
 interface PropsType extends Omit<InputHTMLAttributes<HTMLInputElement>, 'onChange' | 'value'> {
     value: string
     className?: string;

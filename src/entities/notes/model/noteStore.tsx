@@ -1,7 +1,7 @@
 import {INote} from "@/entities/notes";
 import {makeAutoObservable, observable} from "mobx";
 import {getNotes} from "@/entities/notes/controller/getNotes";
-
+//
 class NotesStore {
 
     public notes: Array<INote> = []

@@ -2,10 +2,9 @@
 
 import s from './noteItem.module.scss'
 import {INote} from "@/entities/notes";
-import Image from "next/image";
-import close from '@/shared/assets/svg/close.svg'
 import {ReactNode, useState} from "react";
 import classNames from "classnames";
+import {useRouter} from "next/navigation";
 
 interface propsType {
     note: INote,
@@ -13,6 +12,7 @@ interface propsType {
 }
 export default function NoteItem({note, DeleteNote}:propsType) {
     const [deleteAnimation , setDeleteAnimation] = useState<boolean>(false)
+    const router = useRouter()
 
     const handlerMouseMove = (e) => {
         setDeleteAnimation(true)
@@ -26,7 +26,7 @@ export default function NoteItem({note, DeleteNote}:propsType) {
             <div className={s.close} onMouseMove={handlerMouseMove} onMouseLeave={handlerMouseLeave}>
                 <DeleteNote id={note.id} />
             </div>
-            <div className={s.title}>{note.title}</div>
+            <div className={s.title} onClick={() => router.push(`/notes/${note.id}`)}>{note.title}</div>
             <div className={s.subtitle}>{note.subtitle}</div>
         </div>
     )

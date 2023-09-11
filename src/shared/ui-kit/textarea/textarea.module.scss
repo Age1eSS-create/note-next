@@ -16,4 +16,13 @@
       background-color: var(--primary);
     }
   }
+  &.outline {
+    background-color: transparent;
+    border: 1px solid var(--dark-bgc);
+    &:focus {
+      border: none;
+      outline: 2px solid var(--second-bgc);
+      background-color: var(--primary);
+    }
+  }
 }

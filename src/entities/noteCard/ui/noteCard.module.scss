@@ -1,0 +1,29 @@
+.card {
+  p {
+    margin: 0;
+  }
+  .title {
+    margin-bottom: 15px;
+  }
+  .subtitle {
+    margin-bottom: 15px;
+    .text {
+      word-wrap: break-word;
+      height: 350px;
+      overflow-y: auto;
+    }
+  }
+  .date {
+    margin-bottom: 15px;
+  }
+  .label {
+      color: var(--second-bgc);
+    margin-bottom: 5px;
+  }
+  .text {
+    padding: 5px;
+  }
+  .buttonContainer {
+
+  }
+}
