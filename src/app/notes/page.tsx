@@ -3,6 +3,7 @@ import s from './page.module.scss';
 import {NoteList} from "@/entities/notes";
 import {AddNote} from "@/features/notes/addNote/ui/addNote";
 import {DeleteNote} from "@/features/notes/deleteNote";
+import {ImportNote} from "@/features/notes/importNote";
 
 async function getNotes() {
     const res = await fetch(`http://localhost:3000/api/notes`, {method: "GET", cache:'no-cache'} )
@@ -16,6 +17,7 @@ export default async function Notes() {
         <div className={s.notesList}>
             <div className={s.addNoteContainer}>
                 <AddNote />
+                <ImportNote />
             </div>
            <NoteList DeleteNote={DeleteNote} />
         </div>

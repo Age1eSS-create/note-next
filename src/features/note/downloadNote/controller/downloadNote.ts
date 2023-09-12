@@ -5,7 +5,7 @@ export const downloadNote = (note:INote) => {
     const blob = new Blob([fileData], { type: "text/plain" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
-    link.download = `${note.title}-${note.create}.txt`;
+    link.download = `${note.title}.txt`;
     link.href = url;
     link.click();
 }

@@ -1,1 +1,2 @@
-export {} from './ui/addNote'
+export { AddNote } from './ui/addNote'
+export { addNote } from './controller/addNote'

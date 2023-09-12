@@ -1,0 +1,10 @@
+.importNote {
+  display: flex;
+  cursor: pointer;
+  input {
+    display: none;
+  }
+  button {
+    width: 100%;
+  }
+}
