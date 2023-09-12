@@ -8,7 +8,7 @@ class noteCardStore {
     public constructor() {
         makeAutoObservable(this)
     }
-    getNoteCard = async (id) => {
+    getNoteCard = async (id:string) => {
         try {
             this.isLoading = true
             let data = await getNoteCard(id) as INote

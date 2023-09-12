@@ -9,9 +9,10 @@ import {Button} from "@/shared/ui-kit";
 
 interface PropsType {
     id:any;
-    EditNote: ReactNode,
+    EditNote:  React.JSX.Element,
+    DownloadNote:  React.JSX.Element
 }
-const NoteCard = observer(({id, EditNote}:PropsType) => {
+const NoteCard = observer(({id, EditNote, DownloadNote}:PropsType) => {
     const {note, isLoading, getNoteCard } = NoteCardStore
     const [editFlag , setEditFlag] = useState(false)
 
@@ -39,6 +40,7 @@ const NoteCard = observer(({id, EditNote}:PropsType) => {
                 </div>
                 <div className={s.buttonContainer}>
                     <Button modes={['default']} onClick={e => setEditFlag(true)}>Изменить</Button>
+                    <DownloadNote note={note}/>
                 </div>
             </div>
 

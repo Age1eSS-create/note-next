@@ -3,11 +3,11 @@
 import { useParams } from 'next/navigation'
 import {NoteCard} from "@/entities/noteCard";
 import {EditNote} from "@/features/note/editNote";
+import {DownloadNote} from "@/features/note/downloadNote";
 export default function Note(){
     const params = useParams()
-    console.log(params.id)
 
-    return <div>
-        <NoteCard id={params.id} EditNote={EditNote}  />
-    </div>
+    return <>
+        <NoteCard id={params.id} EditNote={EditNote} DownloadNote={DownloadNote} />
+    </>
 }
