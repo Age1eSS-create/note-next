@@ -1,4 +1,4 @@
-# React Note App
+# Next.js Note App
 <div>
   <img src="https://img.shields.io/badge/react-grey?logo=react"/>
   <img src="https://img.shields.io/badge/next-grey?logo=next"/>
