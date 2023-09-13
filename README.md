@@ -1,9 +1,9 @@
 # Next.js Note App
 <div>
-  <img src="https://img.shields.io/badge/react-grey?logo=react"/>
-  <img src="https://img.shields.io/badge/next-grey?logo=next"/>
-  <img src="https://img.shields.io/badge/ts-grey"/>
-  <img src="https://img.shields.io/badge/npm-grey?logo=npm"/>
+  <img src="https://img.shields.io/npm/v/react?logo=react"/>
+  <img src="https://img.shields.io/npm/v/npm.svg?logo=nextdotjs"/>
+  <img src="https://img.shields.io/npm/v/typescript?logo=typescript"/>
+  <img src="https://img.shields.io/npm/v/sass?logo=sass"/>
 </div>
 
 <img src="./3_-Create-Next-App.gif" />
